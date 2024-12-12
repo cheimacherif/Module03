@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        android:title="Activer les notifications"
+        android:summary="Recevez des notifications pour les mises à jour"
+        android:defaultValue="true" />
+
+    <EditTextPreference
+        android:key="username"
+        android:title="Nom d'utilisateur"
+        android:summary="Définissez votre nom d'utilisateur"
+        android:dialogTitle="Nom d'utilisateur"
+        android:defaultValue="Utilisateur" />
+
+</PreferenceScreen>
